@@ -1,7 +1,7 @@
 ScanCode.io AppImage
 --------------------
 
-This repo provides `scancode.io <https://github.com/nexb/scancode.io>`_ as an AppImage. Specifically, AppImage is built using `pkg2appimage <https://github.com/AppImageCommunity/pkg2appimage>`_, which packages scancode.io from https://github.com/nexb/scancode.io/tree/scancode.io-appimage, Python built from `Python-Linux-Support <https://github.com/beeware/Python-Linux-support>`_, and other ScanCode Toolkit system dependencies into an AppImage.
+This repo provides `scancode.io <https://github.com/nexb/scancode.io>`_ as an AppImage. Specifically, AppImage is built using the build files found at https://github.com/nexB/scancode.io/tree/scancode.io-appimage/etc/scripts/appimage-build, which uses `pkg2appimage <https://github.com/AppImageCommunity/pkg2appimage>`_ to package scancode.io, Python built from `Python-Linux-Support <https://github.com/beeware/Python-Linux-support>`_, and other ScanCode Toolkit system dependencies into an AppImage.
 
 Usage
 -----
