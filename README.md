@@ -1,1 +1,0 @@
-# scancode.io-appimage
