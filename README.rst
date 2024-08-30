@@ -1,9 +1,9 @@
 ScanCode.io AppImage
 --------------------
 
-This repo provides `scancode.io <https://github.com/nexb/scancode.io>`_ as an
+This repo provides `scancode.io <https://github.com/aboutcode-org/scancode.io>`_ as an
 AppImage. Specifically, AppImage is built using the build files found at
-https://github.com/nexB/scancode.io/tree/scancode.io-appimage/etc/scripts/appimage-build,
+https://github.com/aboutcode-org/scancode.io/tree/scancode.io-appimage/etc/scripts/appimage-build,
 which uses `pkg2appimage <https://github.com/AppImageCommunity/pkg2appimage>`_
 to package scancode.io, Python built from `python-appimage
 <https://github.com/niess/python-appimage>`_, and other ScanCode Toolkit
@@ -50,7 +50,7 @@ AppImage:
 
 Other environment variables can be set in the ``.env-scancodeio`` file. You can
 see what environment variables can be set from the variables in
-https://github.com/nexB/scancode.io/blob/scancode.io-appimage/scancodeio/settings.py
+https://github.com/aboutcode-org/scancode.io/blob/scancode.io-appimage/scancodeio/settings.py
 
 For example, if you wanted to adjust the time taken to scan a file in
 scancode.io, you can set the duration using the ``SCANCODEIO_SCAN_FILE_TIMEOUT``
